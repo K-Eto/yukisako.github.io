@@ -9,6 +9,18 @@ body {
   font-size:14px;
 }
 
+section > ol > li{
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size:16px;
+}
+
+.photo {
+  display: block;
+  margin: 0 auto;
+  margin-left: auto;/*これでもOK*/
+  margin-right: auto;/*これでもOK*/
+}
+
 header {
     background-image:url("../img/bg2.jpg");
     background-position:center center;
@@ -73,11 +85,17 @@ section {
     padding: 20px 20px 20px 20px;
 }
 
+section > ol{
+    padding: 20px 20px 0px 20px;
+}
+
 section h2 {
     padding: 10px 0 20px 0;
     text-align: left;
     letter-spacing: 0.15em;
 }
+
+
 
 strong{
     border:dashed 1px #333333;
