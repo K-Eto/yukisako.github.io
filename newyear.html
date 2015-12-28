@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="エンジニア,大学生,プログラミング,ruby,arduino, 迫 佑樹, yukisako, 迫佑樹">
-    <meta name="description" content="大学生の作品紹介サイトです。Webアプリ作ったりや電子工作やりたいです。ブログやTwitterへのリンクも貼っているので気軽にご覧ください。今後いろいろ面白い物を作っていきたいと思っています。">
-    <title>ポートフォリオサイト</title>
+    <meta name="description" content="お正月用特設サイト">
+    <title>あけおめ!!</title>
     <link rel="shortcut icon" href="img/profile.jpg">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css" type="text/css" />
@@ -39,8 +39,118 @@
           </ul>
         </nav>
       </section>
+
+
+      <h1>あけましておめでとうございますー！</h1>
       
-      <h1>あけましておめでとうございますー！工事中</h1>
+      <p>昨年はみなさん，どうもお世話になりました．こんな子ですが今年もよろしくお願いいたします．</p>
+      <center>
+      <img src="profile.jpg" name="PICT" width=50%, height="200px">
+      </center>
+      <div class="omikuji">
+        
+          <div id="result">？</div>
+          <div id="btn">あなたの運勢は？</div>
+          <script>
+            (function(){
+              document.getElementById('btn').addEventListener('click' ,function() {
+                
+                var omikuji = ["大大吉", "大吉", "小吉", "中吉", "末吉", "諭吉", "凶吉"]
+                var result = Math.floor(Math.random() * omikuji.length);
+                document.getElementById('result').innerHTML = omikuji[result];
+              });
+
+
+              document.getElementById('btn').addEventListener('mousedown', function(){
+                this.className = 'pushed';
+              });
+
+              document.getElementById('btn').addEventListener('mouseup', function(){
+                this.className = '';
+              });
+
+            })();
+          </script>
+        </div>
+
+      
+      
+      <div class="omikuji">
+        
+          <div id="result2">？</div>
+          <div id="btn2">あなた今年学ぶプログラミング言語は？</div>
+          <script>
+            (function(){
+              document.getElementById('btn2').addEventListener('click' ,function() {
+                
+                var omikuji = ["C", "C++", "Ruby", "PHP", "アセンブリ", "Perl", "D", "R", "Haskell", "Python", "Swift", "HTML", "JS", "Java", "C#", "Scala"]
+                var result = Math.floor(Math.random() * omikuji.length);
+                document.getElementById('result2').innerHTML = omikuji[result];
+              });
+
+
+              document.getElementById('btn2').addEventListener('mousedown', function(){
+                this.className = 'pushed';
+              });
+
+              document.getElementById('btn2').addEventListener('mouseup', function(){
+                this.className = '';
+              });
+
+            })();
+          </script>
+        </div>
+
+      <div class="omikuji">
+        
+          <div id="result3">？</div>
+          <div id="btn3">あなたにおすすめのエディタは？</div>
+          <script>
+            (function(){
+              document.getElementById('btn3').addEventListener('click' ,function() {
+                
+                var omikuji = ["Vim", "Vi", "Sublime", "Atom", "Nano", "gedit", "メモ帳", "秀丸","TeraPad","サクラ","CotEditor"]
+                var result = Math.floor(Math.random() * omikuji.length);
+                document.getElementById('result3').innerHTML = omikuji[result];
+              });
+
+
+              document.getElementById('btn3').addEventListener('mousedown', function(){
+                this.className = 'pushed';
+              });
+
+              document.getElementById('btn3').addEventListener('mouseup', function(){
+                this.className = '';
+              });
+
+            })();
+          </script>
+        </div>
+
+
+      <script>
+      var cnt=0;
+      var img = [
+      "./img/newyear/1.png",
+      "./img/newyear/8.jpeg",
+      "./img/newyear/2.png",
+      "./img/newyear/5.jpeg",
+      "./img/newyear/3.jpeg",
+      "./img/newyear/6.jpg",
+      "./img/newyear/4.png",
+      "./img/newyear/7.jpg",
+      ];
+      function anime() {
+      document.images['PICT'].src = img[cnt++];
+      setTimeout("anime()", 1000);
+      if(cnt==img.length)cnt=0;
+      }
+      anime();
+      </script>
+
+
+      </div>
+
 
     <footer>
       <hr />
