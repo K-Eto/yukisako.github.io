@@ -140,6 +140,12 @@ ifname{
   font-family: Arial,sans-serif;
   text-align: center;
 }
+.result{
+  background: #FFFFFF;
+  color: #fff;
+  font-family: Arial,sans-serif;
+  text-align: center;
+}
 
 
 #result, #result2, #result3{
@@ -183,6 +189,14 @@ ifname{
   box-shadow: 0 2px 0 #0088cc;
 }
 
+#post{
+  width: 300px;
+  height: 40px;
+  background-color: #9E9EEE;
+  margin: 5% 0;
+  border-radius: 3px;
+  text-align: center;
+}
 
 
 
