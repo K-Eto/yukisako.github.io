@@ -43,11 +43,11 @@ header {
 #logo h1 {
     letter-spacing: 0.15em;
     color: #fff;
-    text-shadow: 1px 1px 0px #000;
+    text-shadow: 2px 2px 0px #200;
 }
 
 nav {
-    margin:0 0 30px 0;
+    margin:0 0 -20px 0;
     padding: 10px 0;
     text-align: center;
     background: #fff;
@@ -59,7 +59,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 15px 5%;
     display: inline-block;
 }
 
@@ -102,9 +102,44 @@ section h2 {
 
 
 
-strong{
-    border:dashed 1px #333333;
-    border-radius:5px;
+h3{
+    position: relative;
+    color: #111;
+    font-size: 1.143em;
+    font-weight: bold;
+    margin: 2.5em 0 1.5em 0;
+    padding: 0.5em 0.5em 0.5em 1.7em;
+    border-bottom: 3px solid #B92A2C;
+}
+ 
+h3:before{
+    content: "";
+    position: absolute;
+    background: #d48789;
+    top: 0;
+    left: 0.4em;
+    height: 12px;
+    width: 12px;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+ 
+h3:after{
+    content: "";
+    position: absolute;
+    background:#d26466;
+    top: 1.0em;
+    left: 0;
+    height: 8px;
+    width: 8px;
+    transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
 }
 
 footer {
@@ -218,6 +253,130 @@ ifname{
   height: 100%;
 }
 
+.works ul li{
+  position:relative;
+  padding:10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background:#88ccef;
+  box-shadow:
+    0 -10px 0 0 #95daff,
+    10px 0 0 0 #88ccef,
+    -10px 0 0 0 #88ccef,
+    0 3px 3px 0 rgba(0,0,0,0.1);
+}
+.works ul li:before{
+  content:" ";
+  position:absolute;
+  top:-10px;
+  left:-10px;
+  width:0;
+  height:0;
+  border-width:0 0 10px 10px;
+  border-style:solid;
+  border-color:transparent;
+  border-bottom-color:#95daff;
+}
 
+.works ul li:after{
+  content:" ";
+  position:absolute;
+  top:-10px;
+  left:100%;
+  width:0;
+  height:0;
+  border-width:0 10px 10px 0;
+  border-style:solid;
+  border-color:transparent;
+  border-bottom-color:#95daff;
+}
+
+.works ul li a{
+  font:bold 14px/1.2 Arial, Helvetica, sans-serif;
+  color: #f64;
+}
+
+.works ul li{
+  font:bold 14px/1.2 Arial, Helvetica, sans-serif;
+}
+
+.history li{
+  position:relative;
+  margin:0 10px;
+  padding:10px 10px 10px 30px;
+  font:bold 14px/1.2 Arial, Helvetica, sans-serif;
+  color:#666;
+  background:#ccc;
+  border-top:#ccc solid 1px;
+  border-right:#999 solid 1px;
+  border-bottom:#999 solid 1px;
+  border-left:#ccc solid 1px;
+  text-shadow:1px 1px 0 rgba(255,255,255,1);
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.5) inset;
+    background-image: -webkit-gradient(linear, left top, left bottom,
+      from(      rgba(220, 220, 220, 1.0)), 
+      color-stop(0.25, rgba(240, 240, 240, 1.0)),
+      color-stop(0.30, rgba(235, 235, 235, 1.0)),
+      color-stop(0.36, rgba(240, 240, 240, 1.0)),
+      color-stop(0.50, rgba(235, 235, 235, 1.0)),
+      color-stop(0.80, rgba(215, 215, 215, 1.0)),
+      to(        rgba(210, 210, 210, 1.0))
+      );
+  background-image: -webkit-linear-gradient(top,
+      rgba(220, 220, 220, 1.0), 
+      rgba(240, 240, 240, 1.0) 25%,
+      rgba(235, 235, 235, 1.0) 30%,
+      rgba(240, 240, 240, 1.0) 36%,
+      rgba(235, 235, 235, 1.0) 50%,
+      rgba(215, 215, 215, 1.0) 80%,
+      rgba(210, 210, 210, 1.0)
+      );
+  background-image: -moz-linear-gradient(top,
+      rgba(220, 220, 220, 1.0), 
+      rgba(240, 240, 240, 1.0) 25%,
+      rgba(235, 235, 235, 1.0) 30%,
+      rgba(240, 240, 240, 1.0) 36%,
+      rgba(235, 235, 235, 1.0) 50%,
+      rgba(215, 215, 215, 1.0) 80%,
+      rgba(210, 210, 210, 1.0)
+      );
+  background-image: -o-linear-gradient(top,
+      rgba(220, 220, 220, 1.0), 
+      rgba(240, 240, 240, 1.0) 25%,
+      rgba(235, 235, 235, 1.0) 30%,
+      rgba(240, 240, 240, 1.0) 36%,
+      rgba(235, 235, 235, 1.0) 50%,
+      rgba(215, 215, 215, 1.0) 80%,
+      rgba(210, 210, 210, 1.0)
+      );
+  background-image: linear-gradient(to bottom,
+      rgba(220, 220, 220, 1.0), 
+      rgba(240, 240, 240, 1.0) 25%,
+      rgba(235, 235, 235, 1.0) 30%,
+      rgba(240, 240, 240, 1.0) 36%,
+      rgba(235, 235, 235, 1.0) 50%,
+      rgba(215, 215, 215, 1.0) 80%,
+      rgba(210, 210, 210, 1.0)
+      );
+}
+.history li:before{
+  content:" ";
+  position:absolute;
+  top:0;
+  left:15px;
+  width:0;
+  height:100%;
+  border-left:#ccc solid 1px;
+}
+.history li:after{
+  content:" ";
+  position:absolute;
+  top:0;
+  left:16px;
+  width:0;
+  height:100%;
+  border-right:#eee so.history li
+}
 
 
