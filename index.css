@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+header h1 {
+  color: #ffffee;
+  font-size: 70px;
+  font-family: lobster;
+  text-align: center;
+  background-image: url(images/frame.png);
+  height: 320px;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.intro p{
+  margin: 0;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(images/header-bg.jpg);
+  background-color: #A2BEEB;
+  height: 450px;
+  padding-top: 30px;
+}
+
+nav {
+  background-color: #ff4c4c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #d0a2a9;
+}
+
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.intro {
+  background-color: #ffffdd;
+  color: #663300;
+  padding: 30px;
+}
+
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-color: #663300;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.intro-contents {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.intro img {
+  float: right;
+/*  width: 20%;*/
+  margin: 50px 0px 0px 10px ;
+}
+
+.photo {
+  padding: 30px;
+  background-image: url(images/wood.jpg);
+}
+
+.photo h2 {
+  color: #ff4c4c;
+  border-color: #ff4c4c;
+}
+
+.photo p {
+  color: #ffffff;
+  clear: left;
+  margin: 20px;
+}
+
+.big {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 70px 20px;
+  box-shadow: 10px 10px 20px #000000;
+/*  float: left;*/
+  transform: rotate(-5deg);
+}
+
+.small {
+/*  width: 200px;*/
+/*  float: left;*/
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+}
+
+.big img {
+    width: 100%;
+}
+
+.small img {
+  width: 100%;
+}
+
+.contact {
+  padding: 30px;
+  background-color: #ffffdd;
+}
+
+.contact h2 {
+  color: #663300;
+  border-left: 10px solid #663300;
+}
+
+.contact table {
+  background: #ffffdd;
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.contact td {
+  border: 1px solid #000000;
+  padding: 10px 30px 10px 10px;
+}
+
+.contact th {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: left;
+  background: #ffcc11;
+}
+
+.contact {
+  background: #ffffdd;
+  color: #663300;
+  padding: 30px;
+  height: 400px;
+}
+
+.contact h3 {
+  font-size: 50px;
+  font-family: lobster;
+  margin-top: 0;
+}
+
+.contact div {
+  width: 100%;
+  float: left;
+}
+.contact-contents {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer {
+  padding-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #663300;
+}
