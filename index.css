@@ -79,8 +79,8 @@ nav li {
 
 .intro img {
   float: right;
-/*  width: 20%;*/
-  margin: 50px 0px 0px 10px ;
+/ min-width: 100px !important;
+  margin: 40px 0px 0px 10px ;
 }
 
 .photo {
