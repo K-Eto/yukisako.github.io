@@ -1,0 +1,54 @@
+
+    .omikuji{
+      background: #e0e0e0;
+      color: #fff;
+      font-family: Arial,sans-serif;
+      text-align: center;
+    }
+    .result{
+      background: #FFFFFF;
+      color: #fff;
+      font-family: Arial,sans-serif;
+      text-align: center;
+    }
+
+
+    #result{
+      margin: 30px auto;
+      width: 250px;
+      height: 180px;
+      border-radius: 50%;
+      line-height: 180px;
+      font-size: 48px;
+      font-weight: bold;
+      background: #f44336;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+
+    #btn{
+      margin: 20px auto;
+      width: 200px;
+      padding: 5px;
+      border-radius: 5px;
+      background: #00aaff;
+      box-shadow: 0 4px 0 #0088cc;
+      cursor: pointer;
+    }
+
+    #btn:hover{
+      opacity: 0.8;
+    }
+
+    #btn.pushed{
+      margin-top: 32px;
+      box-shadow: 0 2px 0 #0088cc;
+    }
+
+    #post{
+      width: 300px;
+      height: 40px;
+      background-color: #9E9EEE;
+      margin: 5% 0;
+      border-radius: 3px;
+      text-align: center;
+    }
